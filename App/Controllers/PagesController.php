@@ -5,7 +5,6 @@ namespace App\Controllers;
 use Monolog\Logger;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Slim\Exception\NotFoundException;
 
 class PagesController extends Controller
 {
@@ -13,6 +12,13 @@ class PagesController extends Controller
 	{
 		$this->container->get(Logger::class)->info('Hello');
 
-		throw new NotFoundException($request, $response);
+//		return a 404 http error
+//		throw new NotFoundException($request, $response);
+
+//		return json
+		return $response->withJson([
+			'This is the main page of the API!',
+			'Welcome in your application!'
+		]);
 	}
 }
