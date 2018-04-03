@@ -1,6 +1,6 @@
 {
-    "name": "lefuturiste/slim3-template",
-    "description": "This is simple template of slimframework 3 and integrations of others php librarys.",
+    "name": "lefuturiste/slim3-template-api",
+    "description": "Slim3 template, ready to start. This is Api version of slim3 template with more lightly template.",
     "type": "project",
     "authors": [
         {
