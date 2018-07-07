@@ -1,5 +1,5 @@
 {
-    "name": "lefuturiste/slim3-template-api",
+    "name": "lefuturiste/slim3-template-api-simple",
     "description": "Slim3 template, ready to start. This is Api version of slim3 template with more lightly template.",
     "type": "project",
     "authors": [

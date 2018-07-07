@@ -6,7 +6,7 @@ This is simple template of slimframework 3 and integrations of others php librar
 
 Just run a:
 
-`composer create-project lefuturiste/slim3-template-api`
+`composer create-project lefuturiste/slim3-template-api-simple`
 
 Create a .env file in the root directory and fill it with env vars fields (you can get the list of the fields in .env.example)
 
